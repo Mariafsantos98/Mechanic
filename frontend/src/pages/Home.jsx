@@ -89,6 +89,14 @@ const Home = () => {
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-amber-50 via-white to-zinc-50 opacity-60"></div>
+        {/* Background Image */}
+        <div className="absolute inset-0 opacity-10">
+          <img 
+            src="https://images.unsplash.com/photo-1618312980089-c7cfe73ebb85?w=1920&q=80" 
+            alt="Professional mechanic"
+            className="w-full h-full object-cover"
+          />
+        </div>
         <div className="container mx-auto relative">
           <div className="max-w-3xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 bg-amber-100 text-amber-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
@@ -167,6 +175,13 @@ const Home = () => {
             </div>
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
+                <div className="rounded-2xl overflow-hidden shadow-xl mb-6">
+                  <img 
+                    src="https://images.unsplash.com/photo-1770656505713-b0fd2f5751e6?w=800&q=80" 
+                    alt="Mechanic working with precision tools"
+                    className="w-full h-80 object-cover"
+                  />
+                </div>
                 <p className="text-lg text-zinc-700 leading-relaxed mb-6">
                   {content.about.description1}
                 </p>

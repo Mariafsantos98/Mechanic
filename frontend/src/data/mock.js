@@ -6,12 +6,12 @@ export const mockData = {
       about: 'Sobre',
       services: 'Serviços',
       reviews: 'Avaliações',
-      contact: 'Contato'
+      contact: 'Contacto'
     },
     hero: {
       badge: 'Mais de 7 anos de experiência',
       title: 'O Mecânico de Confiança do Seu Bairro',
-      subtitle: 'Serviços automotivos profissionais com honestidade, rapidez e preços justos. Deixe seu veículo em boas mãos.',
+      subtitle: 'Serviços automóveis profissionais com honestidade, rapidez e preços justos. Deixe a sua viatura em boas mãos.',
       cta: 'Agendar Serviço',
       callButton: 'Ligar Agora'
     },
@@ -31,8 +31,8 @@ export const mockData = {
     },
     about: {
       title: 'Sobre Nós',
-      description1: 'Com mais de 7 anos de experiência em usinagem automotiva, o Mecânico do Bairro é reconhecido pela honestidade, qualidade e rapidez nos serviços.',
-      description2: 'Nosso compromisso é entregar seu veículo completamente renovado, no prazo combinado e com preços justos. A satisfação dos nossos clientes é nossa maior conquista.',
+      description1: 'Com mais de 7 anos de experiência em usinagem automóvel, o Mecânico do Bairro é reconhecido pela honestidade, qualidade e rapidez nos serviços.',
+      description2: 'O nosso compromisso é entregar a sua viatura completamente renovada, no prazo combinado e com preços justos. A satisfação dos nossos clientes é a nossa maior conquista.',
       features: [
         {
           icon: Shield,
@@ -52,43 +52,43 @@ export const mockData = {
       ]
     },
     services: {
-      title: 'Nossos Serviços',
-      subtitle: 'Oferecemos uma ampla gama de serviços automotivos com qualidade profissional',
+      title: 'Os Nossos Serviços',
+      subtitle: 'Oferecemos uma vasta gama de serviços automóveis com qualidade profissional',
       list: [
         {
           icon: Wrench,
           title: 'Manutenção Geral',
-          description: 'Revisão completa, troca de óleo, filtros e manutenção preventiva para manter seu veículo em perfeito estado'
+          description: 'Revisão completa, mudança de óleo, filtros e manutenção preventiva para manter a sua viatura em perfeito estado'
         },
         {
           icon: Settings,
-          title: 'Usinagem Automotiva',
-          description: 'Serviços especializados de usinagem para motores, blocos, cabeçotes e componentes mecânicos'
+          title: 'Usinagem Automóvel',
+          description: 'Serviços especializados de usinagem para motores, blocos, cabeças e componentes mecânicos'
         },
         {
           icon: Gauge,
           title: 'Diagnóstico Completo',
-          description: 'Identificação rápida e precisa de problemas mecânicos e elétricos do seu veículo'
+          description: 'Identificação rápida e precisa de problemas mecânicos e elétricos da sua viatura'
         },
         {
           icon: Shield,
-          title: 'Reparos Gerais',
-          description: 'Consertos de motor, suspensão, freios, embreagem e sistema de arrefecimento'
+          title: 'Reparações Gerais',
+          description: 'Consertos de motor, suspensão, travões, embraiagem e sistema de arrefecimento'
         },
         {
           icon: Settings,
           title: 'Serviços no Local',
-          description: 'Atendimento direto na nossa oficina com toda estrutura e equipamentos necessários'
+          description: 'Atendimento direto na nossa oficina com toda a estrutura e equipamentos necessários'
         },
         {
           icon: Award,
           title: 'Renovação Completa',
-          description: 'Revitalização total do veículo, deixando-o como novo'
+          description: 'Revitalização total da viatura, deixando-a como nova'
         }
       ]
     },
     reviews: {
-      title: 'O Que Dizem Nossos Clientes',
+      title: 'O Que Dizem os Nossos Clientes',
       reviewsCount: 'avaliações',
       list: [
         {
@@ -106,8 +106,8 @@ export const mockData = {
       ]
     },
     contact: {
-      title: 'Entre em Contato',
-      subtitle: 'Estamos prontos para cuidar do seu veículo',
+      title: 'Entre em Contacto',
+      subtitle: 'Estamos prontos para cuidar da sua viatura',
       phone: {
         label: 'Telefone'
       },
@@ -133,7 +133,7 @@ export const mockData = {
     },
     footer: {
       rights: 'Todos os direitos reservados.',
-      tagline: 'Serviços automotivos de qualidade com honestidade e preços justos'
+      tagline: 'Serviços automóveis de qualidade com honestidade e preços justos'
     }
   },
   en: {

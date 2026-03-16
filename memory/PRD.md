@@ -23,29 +23,30 @@ Criar uma página web simples para o "Mecânico do Bairro", uma oficina mecânic
 
 ## Implementado (Dezembro 2024)
 
-### Frontend Completo com Mock Data
+### Frontend Completo com Mock Data - ATUALIZADO
 **Data**: Dezembro 2024
 
-**Arquivos Criados**:
-- `/app/frontend/src/pages/Home.jsx` - Página principal com todas as seções
-- `/app/frontend/src/data/mock.js` - Dados mock bilíngues (PT/EN)
+**Arquivos Criados/Atualizados**:
+- `/app/frontend/src/pages/Home.jsx` - Página principal com todas as secções e imagens
+- `/app/frontend/src/data/mock.js` - Dados mock bilíngues (PT-PT/EN)
 - Atualizações em `App.js` e `App.css`
 
 **Funcionalidades**:
 1. ✅ Header fixo com navegação e toggle de idiomas
-2. ✅ Hero section com CTAs principais
+2. ✅ Hero section com CTAs principais e imagem de fundo profissional
 3. ✅ Cards informativos (Horário, Localização, Experiência)
-4. ✅ Seção "Sobre Nós" com features destacadas
-5. ✅ Seção de Serviços (6 serviços principais)
-6. ✅ Seção de Avaliações (3 depoimentos reais)
-7. ✅ Seção de Contato com informações e formulário
+4. ✅ Secção "Sobre Nós" com imagem de mecânico a trabalhar e features destacadas
+5. ✅ Secção de Serviços (6 serviços principais)
+6. ✅ Secção de Avaliações (3 depoimentos reais)
+7. ✅ Secção de Contacto com informações e formulário
 8. ✅ Footer responsivo
-9. ✅ Sistema bilíngue funcional (PT/EN)
-10. ✅ Formulário de contato com validação (mock submission)
+9. ✅ Sistema bilíngue funcional (PT-PT/EN)
+10. ✅ Formulário de contacto com validação (mock submission)
 11. ✅ Animações e transições suaves
 12. ✅ Design responsivo para mobile, tablet e desktop
 13. ✅ Uso de lucide-react icons
 14. ✅ Paleta de cores moderna (amber/zinc)
+15. ✅ 2 imagens profissionais de oficina mecânica integradas
 
 **Design**:
 - Cores principais: Amber (dourado) e Zinc (cinza)
@@ -53,6 +54,8 @@ Criar uma página web simples para o "Mecânico do Bairro", uma oficina mecânic
 - Componentes: Shadcn UI (Button, Card, Input, Textarea)
 - Ícones: Lucide React
 - Toast notifications: Sonner
+- Imagens: Unsplash (mecânico profissional e trabalho técnico)
+- Idioma: Português de Portugal (PT-PT) e Inglês (EN)
 
 ## Dados Mock
 Atualmente todos os dados são estáticos no arquivo `mock.js`:
